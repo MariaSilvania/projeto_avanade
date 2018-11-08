@@ -10,7 +10,7 @@ body {
 	height: 100vh;
 }
 
-body#bg-body {
+/* body#bg-body {
 	background-image: url("../img/background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -21,7 +21,7 @@ body#bg-body {
 .logo {
 	font-family: 'Indie Flower', cursive;
 	color: #eebe0d;
-}
+} */
 
 .form-control {
 	background: #f7f7f7;
@@ -48,10 +48,6 @@ body#bg-body {
 
 .box-input {
 	margin-bottom: 10px;
-}
-
-.login-form {
-	text-align: center;
 }
 
 .btn.btn-primary {
@@ -102,10 +98,10 @@ body#bg-body-home {
 	color: #eebe0d;
 }
 
-.user-name {
+/* .user-name {
 	text-align: center;
 	background-color: #f7f7f7;
-}
+} */
 
 
 .btn-light {
