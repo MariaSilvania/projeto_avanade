@@ -1,11 +1,6 @@
 body {
   background-color: #fff;
   color: #ff5800;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 10px;
 }
 
 .formulario {
@@ -15,8 +10,8 @@ body {
 }
 
 .logo {
-  width: 80vw;
-  margin: 33px 0px;
+  width: 62vw;
+  margin: 36px 41px;
 }
 
 p {
@@ -26,6 +21,47 @@ p {
   margin-top: 16vw;
 }
 
+a {
+  color: #ff5800;
+}
+
 button {
   background-color: #ff5800;
+  color: #fff;
+}
+
+.logo-animation,
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.home {
+  display: none;
+  height: auto;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: firebrick;
+  font-size: 60px;
+}
+
+#logo {
+  width: 100px;
+
+}
+
+@media screen and (min-width: 576px) {
+  .logo {
+
+    margin: 33px 370px;
+  }
+
 }
