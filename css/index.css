@@ -27,10 +27,7 @@ a {
 
 button {
   background-color: #ff5800;
-<<<<<<< HEAD
-=======
   color: #fff;
->>>>>>> 6f2730662885c2bd597ac2d96aca406c7b8779d3
 }
 
 .logo-animation,
@@ -58,9 +55,6 @@ button {
 
 #logo {
   width: 100px;
-
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (min-width: 576px) {
@@ -68,6 +62,4 @@ button {
 
     margin: 33px 370px;
   }
-
->>>>>>> 6f2730662885c2bd597ac2d96aca406c7b8779d3
 }
