@@ -1,5 +1,35 @@
 var database = firebase.database();
 $(document).ready(function () {
+	$('.home').delay('6000').fadeIn('slow');
+	var boxLogo = $("#box-logo");
+	boxLogo.animate({
+		height: '300px'
+	}, "slow");
+	boxLogo.animate({
+		width: '300px',
+		opacity: '0.4'
+	}, "slow");
+	boxLogo.animate({
+		height: '50px',
+		width: '50px',
+		opacity: '0.6'
+	}, "slow");
+	boxLogo.animate({
+		width: '300px',
+		opacity: '1.0'
+	}, "slow");
+	boxLogo.animate({
+		width: '300px',
+		height: '300px',
+		opacity: '1.0'
+	}, "slow");
+	boxLogo.animate({
+		opacity: '0.6'
+	}, "slow");
+	boxLogo.animate({
+		opacity: '1.0'
+	}, "slow");
+	
 	$("#login").click(function () {
 		event.preventDefault();
 		var email = $("#sign-in-email").val();

@@ -29,3 +29,31 @@ p {
 button {
   background-color: #ff5800;
 }
+
+.logo-animation,
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.home {
+  display: none;
+  height: auto;
+  background-color: white;
+}
+
+.logo {
+  position: absolute;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: firebrick;
+  font-size: 60px;
+}
+
+#logo {
+  width: 100px;
+
+}
