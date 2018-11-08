@@ -1,0 +1,50 @@
+/*PAGINA HOME*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	width: 100vw;
+	height: 100vh;
+}
+
+.logo {
+	width: 200px;
+
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+}
+
+body#bg-body-home {
+	background: #FFF;
+}
+
+.box-color {
+	background-color: #f8f9fa;
+}
+
+.box-post {
+	border: 1px solid #eebe0d;
+	margin: 15px;
+	padding: 10px;
+}
+
+.feed{
+	height: 500px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.menu-icon{
+	width: 50px;
+}
+
+footer {
+	background-color: #cecece;
+	height: 70px;
+	width: 100vw;
+}
