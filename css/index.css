@@ -1,6 +1,8 @@
 body {
   background-color: #fff;
   color: #ff5800;
+  margin: 0;
+  padding: 0;
 }
 
 .formulario {
@@ -9,7 +11,7 @@ body {
   justify-content: center;
 }
 
-.logo {
+.logo_home {
   width: 62vw;
   margin: 36px 41px;
 }
@@ -27,10 +29,7 @@ a {
 
 button {
   background-color: #ff5800;
-<<<<<<< HEAD
-=======
   color: #fff;
->>>>>>> 6f2730662885c2bd597ac2d96aca406c7b8779d3
 }
 
 .logo-animation,
@@ -51,23 +50,37 @@ button {
 
 .logo {
   position: absolute;
-  font-family: 'Love Ya Like A Sister', cursive;
-  color: firebrick;
+  font-family: "Segoe UI", cursive;
+  color: #FF5800;
   font-size: 60px;
 }
 
 #logo {
   width: 100px;
 
-<<<<<<< HEAD
-=======
 }
 
+#box-logo {
+  position: absolute;
+  background-color: white;
+  height: 1px;
+  width: 1px;
+  border: 4px solid #FFB414;
+}
+
+.box {
+  height: 250px;
+}
+
+#box-img {
+  height: auto;
+  background-color: white;
+}
+
+
 @media screen and (min-width: 576px) {
-  .logo {
+  .logo_home {
 
     margin: 33px 370px;
   }
-
->>>>>>> 6f2730662885c2bd597ac2d96aca406c7b8779d3
 }
