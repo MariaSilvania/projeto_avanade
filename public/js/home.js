@@ -52,4 +52,7 @@ function createInvites(key, title, content, members, hora) {
 			$(this).parent().remove();
 		})
 	})
+
 }
+
+
