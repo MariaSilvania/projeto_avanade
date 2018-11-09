@@ -2,6 +2,7 @@ var database = firebase.database();
 var USER_ID = window.location.search.match(/\?id=(.*)/)[1];
 
 $(document).ready(function () {
+
   $("#id_compartilhar").click(function (event) {
     event.preventDefault();
     var title = document.getElementById("id-title").value;
