@@ -13,8 +13,8 @@ body {
 }
 
 .icon{
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 }
 
 body#bg-body-home {
@@ -29,4 +29,14 @@ body#bg-body-home {
 	border: none;
 }
 
+.box {
+	height: 350px;
+}
 
+.text {
+	color: #008495;
+}
+
+.perfil {
+	background-color: #fff3a0;
+}
