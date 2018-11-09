@@ -9,11 +9,14 @@ $(document).ready(function () {
     var content = document.getElementById("id-content").value;
     var members = document.getElementById("id-members").value;
 
-    var postFromDB = database.ref("invates/" + USER_ID).push({
-      title: title,
-      content: content,
-      members: members
-    });
+    if (title != "" || content != "" || members != "") {
+      var postFromDB = database.ref("invates/" + USER_ID).push({
+        title: title,
+        content: content,
+        members: members
+      });
+    }
+
 
     var newPostKey = postFromDB.key;
     document.getElementById("id-title").value = "";

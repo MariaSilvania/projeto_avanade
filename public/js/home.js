@@ -19,7 +19,7 @@ $(document).ready(function () {
 	})
 })
 
-	// função de criar posts no HTMl
+// função de criar posts no HTMl
 function createInvites(key, title, content, members) {
 	$(".box-list").append(`
 		<div class='box-post d-flex mb-3 '>
@@ -49,6 +49,10 @@ function createInvites(key, title, content, members) {
 			$(this).parent().remove();
 		})
 	})
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> aaa90f10933fea6aa1f408a3e466bf7a4cb0b38d
