@@ -78,7 +78,7 @@ button {
 }
 
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .logo_home {
 
     margin: 33px 370px;
