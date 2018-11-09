@@ -13,20 +13,23 @@ $(document).ready(function () {
 			var members = childData.members;
 			var title = childData.title;
 			var content = childData.content;
+			var hora = childData.hora;
+
 			//Chamando função que coloca os invites do firebase no html
-			createInvites(childKey, title, content, members);
+			createInvites(childKey, title, content, members, hora);
 		});
 	})
 })
 
 // função de criar posts no HTMl
-function createInvites(key, title, content, members) {
+function createInvites(key, title, content, members, hora) {
 	$(".box-list").append(`
 		<div class='box-post d-flex mb-3 '>
 			<div class='mr-auto'>
-			<h3>${title}</h3>
+			<h4>${title}</h4>
 			<span class='box-msg' data-newedit-id=${key}>${content}</span></br></br>
 			<p>Compartilhado com:</br>${members}</p>
+			<p>hora do compartilhamento:</br>${hora}</p>
 			</div><button type='button' class='btn btn-outline-warning btn-post' data-posts-id=${key}>Deletar</button><button type='button' class='btn btn-outline-warning btn-post ml-2' data-edit-id=${key}>Editar</button></div>`);
 
 	//Apagar posts
