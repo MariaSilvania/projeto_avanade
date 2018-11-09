@@ -2,6 +2,17 @@ var database = firebase.database();
 var USER_ID = window.location.search.match(/\?id=(.*)/)[1];
 now = new Date;
 
+function limite_textarea(valor) {
+  var quant = 500;
+  var total = valor.length;
+  resto = quant - total;
+  document.getElementById('cont').innerHTML = resto;
+  if (resto == 20) {
+    document.getElementById("id-content").disabled = true;
+    document.getElementById("id-content").style.backgroundColor = "red";
+  }
+}
+
 $(document).ready(function () {
 
   $("#id_compartilhar").click(function (event) {
