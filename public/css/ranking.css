@@ -21,30 +21,19 @@ body#bg-body-home {
 	background: #FFF;
 }
 
-.box-color {
-	background-color: #f8f9fa;
-}
-
-.box-post {
+.box {
+	background-color: #fff3a0;
 	border: 1px solid #eebe0d;
 	margin: 15px;
 	padding: 10px;
 }
 
-.feed{
-	height: 500px;
+.ranking{
+	color: #008C95;
 }
 
-.navbar-toggler {
-	border: none;
+.icon-medal{
+	width: 10px;
 }
 
-.menu-icon{
-	width: 50px;
-}
 
-footer {
-	background-color: #cecece;
-	height: 70px;
-	width: 100vw;
-}
