@@ -1,16 +1,13 @@
 var database = firebase.database();
 var USER_ID = window.location.search.match(/\?id=(.*)/)[1];
 
-$(document).ready(function () {
-  NewFeed(title, content, members);
-
-});
-
 function NewFeed() {
   event.preventDefault();
-  var title = $("#id-title").val();
-  var content = $("#id-content").val();
-  var members = $("#id-members").val();
+  var title = document.getElementById("id-title").value;
+  var content = document.getElementById("id-content").value;
+  var members = document.getElementById("id-members").value;
+  console.log(members);
+
 
   if (content !== "") {
     var newPosts = createPost(title, content, members);
@@ -23,8 +20,8 @@ function NewFeed() {
   // }
 }
 
-function createPost(conteudoPost, conteudoTipo) {
-  return database.ref("invates/" + USER_ID).push({
+function createPost(title, content, members) {
+  return database.ref("invates/" + USER_ID).set({
     title: title,
     content: content,
     members: members
