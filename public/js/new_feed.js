@@ -2,14 +2,27 @@ var database = firebase.database();
 var USER_ID = window.location.search.match(/\?id=(.*)/)[1];
 now = new Date;
 
+function limite_input(valor) {
+  var quant = 80;
+  var total = valor.length;
+  resto = quant - total;
+  document.getElementById('cont_input').innerHTML = resto;
+  if (resto <= 0) {
+    document.getElementById("id-title").style.backgroundColor = "red";
+  } else {
+    document.getElementById("id-title").style.backgroundColor = "#fff";
+  }
+}
+
 function limite_textarea(valor) {
   var quant = 500;
   var total = valor.length;
   resto = quant - total;
   document.getElementById('cont').innerHTML = resto;
-  if (resto == 20) {
-    document.getElementById("id-content").disabled = true;
+  if (resto <= 0) {
     document.getElementById("id-content").style.backgroundColor = "red";
+  } else {
+    document.getElementById("id-content").style.backgroundColor = "#fff";
   }
 }
 
@@ -30,9 +43,6 @@ $(document).ready(function () {
         hora: hora
       });
     }
-
-
-    var newPostKey = postFromDB.key;
     document.getElementById("id-title").value = "";
     document.getElementById("id-content").value = "";
     document.getElementById("id-members").value = "";

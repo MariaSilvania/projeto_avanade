@@ -55,15 +55,17 @@
       <div class="col-sm ">
         <div class="input-group mb-3 d-flex justify-content-center ">
           <div class="input-group-prepend">
-            <input type="text" id="id-title" placeholder="Titulo" autofocus>
+            <input type="text" id="id-title" placeholder="Titulo" autofocus onkeyup="limite_input(this.value)">
+            <span id="cont_input"></span>
           </div>
         </div>
       </div>
       <div class="col-sm">
         <div class="input-group mb-3 d-flex justify-content-center">
           <div class="input-group-prepend">
-            <textarea id="id-content" name="" cols="24" rows="5" placeholder="Conteúdo" onkeyup="limite_textarea(this.value)"></textarea>
-            <span id="cont">500</span>
+            <textarea id="id-content" name="" cols="24" rows="5" placeholder="O que você gostaria de compartilhar ?"
+              onkeyup="limite_textarea(this.value)"></textarea>
+            <span id="cont"></span>
           </div>
         </div>
       </div>
