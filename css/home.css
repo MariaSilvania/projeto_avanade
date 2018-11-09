@@ -17,8 +17,19 @@ body {
 	height: 40px;
 }
 
-body#bg-body-home {
-	background: #FFF;
+.box-color {
+	background-color: #f8f9fa;
+}
+
+.box-post {
+	border: 1px solid #eebe0d;
+	margin: 15px;
+	padding: 10px;
+}
+
+
+.navbar-toggler {
+	border: none;
 }
 
 .box-color {
@@ -31,11 +42,41 @@ body#bg-body-home {
 	padding: 10px;
 }
 
-.feed{
-	height: 500px;
+.icon-star {
+	color: #ccc;
 }
 
-.navbar-toggler {
+.icon-star:hover {
+	color: #eebe0d;
+}
+
+.star {
+	color: #eebe0d;
+}
+
+.user-name {
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+
+.btn-light {
+	background-color: #eebe0d;
+}
+
+.btn-post {
+	background-color: #ede7d3;
+	color: #5e5e5e;
 	border: none;
 }
 
+.button-feed{
+	display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.box-feed {
+	display: flex;
+    flex-direction: column;
+}
