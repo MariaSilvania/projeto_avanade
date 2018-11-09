@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/configure.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/padrao.css">
 	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
@@ -19,42 +20,41 @@
 </head>
 
 <body>
-	<section class="help">
+	<section class="logo-animation d-flex justify-content-center">
+		<div id="box-logo" class=" d-flex justify-content-center align-self-center">
+			<h1 class="logo align-self-center">avanade</h1>
+		</div>
+	</section>
+	<section class="container home">
+		<div class="login-form">
 			<div class="box-white">
 				<img class="card-img-top logo_home" src="img/logo.jpg" alt="Logo da empresa">
-				<div class="d-flex flex-wrap  justify-content-center">
+				<div class="d-flex flex-wrap">
 					<div class="col-lg-6 d-flex justify-content-center">
-						<h1>CONFIGURAÇÕES</h1>
-						<h2>Notificações</h2>
-						<h2>Sons</h2>
+						<form class="formulario">
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text" id="basic-addon1"><img src="img/avatar.png" alt="user"></span>
+								</div>
+								<input type="text" id="sign-in-email" class="form-control" placeholder="Email" aria-label="Username" autofocus
+								 aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text" id="basic-addon1"><img src="img/padlock.png" alt="user"></span>
+								</div>
+								<input type="password" id="sign-in-password" class="form-control" placeholder="Password" aria-label="Username"
+								 aria-describedby="basic-addon1">
+							</div>
+							<button type="submit" class="btn mb-3" id="login">ENTRAR</button>
+							<a href="home.html" class="forgot-password mt-2 d-flex justify-content-center">Esqueceu a senha?</a>
+						</form>
 					</div>
 				</div>
 			</div>
+		</div>
+		<p>Terms and conditions | Privacy Policy</p>
 	</section>
-
-
-<div class="buttonOnOff">
-
-
-	<div class="row">
-
-	
-
-	<div class="col-sm-5">
-		<button type="button" class="btn btn-xs btn-toggle" data-toggle="button" aria-pressed="false" autocomplete="off">
-			<div class="handle"></div>
-		</button>
-	</div>
-
-	<div class="col-sm-5">
-		<button type="button" class="btn btn-xs btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
-			<div class="handle"></div>
-		</button>
-	</div>
-
-</div>
-
-
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	 crossorigin="anonymous"></script>
