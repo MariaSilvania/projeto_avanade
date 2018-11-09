@@ -13,5 +13,5 @@ function carregarRanking() {
 }
 
 function carregarContatos() {
-	window.location = "perfil.html?id=" + USER_ID;
+	window.location = "card.html?id=" + USER_ID;
 }
