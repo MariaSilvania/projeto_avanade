@@ -19,7 +19,7 @@ $(document).ready(function () {
 	})
 })
 
-	// função de criar posts no HTMl
+// função de criar posts no HTMl
 function createInvites(key, title, content, members) {
 	$(".box-list").append(`
 		<div class='box-post d-flex mb-3 '>
@@ -35,7 +35,6 @@ function createInvites(key, title, content, members) {
 		$(this).parent().remove();
 	})
 
-<<<<<<< HEAD:js/home.js
 	//Editar posts
 	$("button[data-edit-id=" + key + "]").click(function () {
 		$("span[data-newedit-id=" + key + "]").append("<div><input type='text' class='form-control box-input new-post' placeholder='" + content + "'><button type='button' class='editar btn btn-outline-warning ml-2' data-btedit-id=" + key + ">Finalizar Edição</button></div>");
@@ -51,9 +50,3 @@ function createInvites(key, title, content, members) {
 		})
 	})
 }
-
-
-=======
-
-}
->>>>>>> fa2664585adf6f6d32ba465834ecbdaa59acdbb0:public/js/home.js
