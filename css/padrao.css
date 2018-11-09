@@ -1,0 +1,13 @@
+body#bg-body-home {
+  background: #FFF;
+}
+
+.box-color {
+  background-color: #f8f9fa;
+}
+
+footer {
+  background-color: #cecece;
+  height: 70px;
+  width: 100vw;
+}

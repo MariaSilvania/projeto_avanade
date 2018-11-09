@@ -1,0 +1,40 @@
+/*PAGINA HOME*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	width: 100vw;
+	height: 100vh;
+}
+
+.logo {
+	width: 200px;
+
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+}
+
+body#bg-body-home {
+	background: #FFF;
+}
+
+.box-color {
+	background-color: #f8f9fa;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.menu-icon{
+	width: 50px;
+}
+
+footer {
+	background-color: #cecece;
+	height: 70px;
+	width: 100vw;
+}
